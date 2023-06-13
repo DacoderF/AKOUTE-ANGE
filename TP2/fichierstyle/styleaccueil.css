@@ -1,0 +1,257 @@
+body{
+    margin: 0%;
+    font-family: sans-serif;
+}
+
+
+/*  -- CI-DESSOUS STYLE DE LA BARRE DE NAVIGATION --*/
+nav {
+    display: flex;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(10, 10, 114);
+    position: fixed;
+    top: 0%;
+    font-family: sans-serif;
+    
+    
+}
+
+
+/*DIMMENSIONS LOGO SENIA*/
+.LOGOSENIA img {
+    height: 70px;
+    width: 280px;
+    overflow: hidden;
+    
+}
+
+.NAVIGATION {
+    list-style-type: none;
+    float: right;
+    padding-top: 10px;
+    padding-left: 10%;
+    text-underline-offset: 15px;
+}
+
+.NAVIGATION li {
+    display: inline-block;
+    padding-right: 5px;
+    
+}
+
+.NAVIGATION li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.NAVIGATION li a:hover{
+    text-decoration: underline 2px solid red;
+
+}
+
+/*STYLE DES MENUS DEROULANTES DANS LA BARRE DE NAVIGATION*/
+.menu_DEROULANTE {
+    display: none;
+    position: absolute;
+    background-color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    line-height: 20px;
+}
+
+.menu_DEROULANTE li a {
+    color: black;
+}
+
+.menu_DEROULANTE li a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/*STYLE AU SURVOLE DE MES MENUS DEROUANTE DANS LA BARRE DE NAVIGATION*/
+.deroulante:hover .menu_DEROULANTE {
+    display: block;
+    width: 200px;
+    line-height: 30px;
+}
+
+/*BLOCK CONTENANT LA PRESENTATION DE SENIA 2023 DATE ET LIEU */
+.PRESENTATION {
+    font-family: sans-serif;
+    height: 350px;
+    text-align: center;
+    padding-top:20%;
+}
+
+/*APPLIQUER LA COULEUR ROUGE SUR SUR LES LETTRES INITIALES*/
+.PRESENTATION h1 span {
+    color: red;
+}
+
+/*STYLE BLOCK SOUS PRESENTATION DATE ET LIEU*/
+.BlockDateLieu {
+    display: flex;
+    justify-content: center;
+}
+
+.BlockDL {
+    
+    height: 50px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+    margin-left: 6px;
+}
+
+.BlockDateLieu div.BlockDL P {
+    float: right;
+    padding-right: 20px;
+
+}
+
+/* BUTTON " A LA DECOUVERTE DU SENIA"*/
+.DecouvrSENIA {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-left: auto;
+    height: 40px;
+    width: 225px;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: transparent;
+
+}
+
+.DecouvrSENIA:hover {
+    
+    background-color: red;
+    cursor: pointer; /*Ce style pour transformer le curseur en doigt a survole*/
+}
+
+
+
+/*SUIT LE STYLE DE LA DEUXIEME SECTION PAGE ACCUEIL SENIA 2023*/
+
+.BLOCKSECTEUR {
+    text-align: center;
+    background-color: rgb(234, 234, 235) ;
+    padding-top: 50px;
+}
+
+.hrPROPRE {
+    width: 50px;
+    color: red;
+    border: none;
+    border-top: 4px solid red;
+}
+
+.BLOCKSECTEUR p {
+    padding-top: 30px;
+}
+
+.CONTENEUR_BlockPERSO {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    justify-content: center;
+    font-weight: bold;
+    
+}
+
+.CONTENEUR_BlockPERSO div.BlockPERSO {
+    width: 300px;
+    height: 200px;
+    background-color:  white;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.CONTENEUR_BlockPERSO div.BlockPERSO p {
+    padding-top: 100px;
+}
+
+/*STYLE SECTION SPONSORS / PARTENAIRES*/
+
+.SECTION_SPONSORS {
+    padding-top: 50px;
+}
+
+.SECTION_SPONSORS h1 {
+    text-align: center;
+}
+
+.CONTENEUR_SPONSORS {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: auto ;
+    padding-right: auto;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.CONTENEUR_SPONSORS h1 {
+    display: unset;
+    text-align: center;
+}
+
+.CONTENEUR_SPONSORS div.SOUSBLOCK_SPONSORS {
+    width: 370px;
+    height: 170px;
+    border: 1px rgb(219, 217, 216) solid;
+    
+}
+
+.SOUSBLOCK_SPONSORS img {
+    width: 300px;
+    height: 170px;
+    
+}
+
+
+/*ICI VA LE STYLE DE LA SECTION ET DU CONTENU AVANT FOOTER*/
+.AVANTFOOT {
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    background-color: rgb(3, 3, 105);
+    padding: 50px;
+    justify-content: center;
+    color: white;
+
+}
+
+.SOUSBLOCKAF {
+    width: 300px;
+    padding-left: 40px;
+}
+
+.AUTREHR {
+    color: red;
+    border: none;
+    border-top: 2px solid red;
+    padding-bottom: 20px;
+}
+
+.AVANTFOOT div.SOUSBLOCKAF a {
+    text-decoration: none;
+    color: white;
+}
+
+
+footer {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(60, 60, 135);
+}
+
+footer p {
+    margin-top: 0%;
+    padding-top: 15px;
+}
